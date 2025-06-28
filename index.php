@@ -147,7 +147,7 @@ if ($is_logged) {
         <div class="container">
             <a class="navbar-brand" href="index.php">
                 <i class="fas fa-tablet-alt me-2"></i>
-                Catalog Electronic Debugging
+                Catalog Electronic
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -179,16 +179,6 @@ if ($is_logged) {
                             </ul>
                         </li>
                     <?php else: ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.php">
-                                <i class="fas fa-sign-in-alt me-1"></i> Autentificare
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="register.php">
-                                <i class="fas fa-user-plus me-1"></i> Înregistrare
-                            </a>
-                        </li>
                     <?php endif; ?>
                 </ul>
             </div>
