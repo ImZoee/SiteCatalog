@@ -25,7 +25,7 @@ Editați fișierul `connect/config.php` pentru a configura conexiunea la baza de
 
 ```php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'db_restaurant');
+define('DB_NAME', 'db_catalog');
 define('DB_USER', 'SuperUser');
 define('DB_PASS', 'superuser');
 ```
